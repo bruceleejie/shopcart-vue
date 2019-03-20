@@ -16,7 +16,8 @@
 
 ## 关于shopcartvue文件
 - 这个是自己用vue-cli搭建出来的项目，是shopcart的纯vue版，把cart.html和address.html都写成了.vue文件。
-- 与原生的html写法不同的是：用了axios替代vue-resource来做数据请求，使用了.vue整合了对应的html和js代码。
+- 与原生的html写法不同的是：用了axios替代vue-resource来做数据请求，使用了.vue整合了对应的html和js代码,
+- 原生的html使用mock数据直接写文件相对地址即可，在vue框架中，需要在build/webpack.dev.conf.js中添加相应的配置信息。
 - 此外自己在代码中都尽量使用了ES6的一些代码风格，想了解的可以点开食用。
 
 ## 最后的总结
